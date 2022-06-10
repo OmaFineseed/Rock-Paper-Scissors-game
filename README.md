@@ -4,5 +4,15 @@
 When the program runs, the players are welcomed and given detailed instructions on how to play the game (you can check the code to see this)
   Next, the player is asked to make a choice from our options. And if the input do no tally with given options, the player is asked to choose again
   When there is a Tie, Win or loose, the player is asked if he/she wishes to continue and if continue is yes, then the program keeps running but if continue is no or any other option, the loop breaks and program ends with GOODBYE
-  
   The 'while' loop is used to Keep the program running as long as inputs are true (while True).
+
+
+ #Resources that helped me build this game and understand while loop
+
+https://youtu.be/-JACmC8kabo
+
+https://youtu.be/GhPZHvhvlsk
+
+ #And you can play the game here
+
+https://replit.com/@OmaFineseed/rock-paper-scissors-game#main.py
