@@ -10,8 +10,7 @@ print("Rock beats Scissors\n Paper beats Rock\n Scissors beats Paper")
 print("If You and computer choose the same options, it is a TIE\n If You choose R and computer choose S OR\n You choose P and computer choose R OR\n You choose S and computer choose P. You WIN! and the computer LOOSE")
 print("If You choose S and computer choose R OR\n You choose R and computer choose P OR\n You choose P and computer choose S. You LOOSE and the computer WINS!")
 print("   ")
-Player_win = 0
-CPU_win = 0
+
 while True:
     options = ['R', 'P', 'S']
     cpu_option = random.choice(options)
@@ -29,36 +28,35 @@ while True:
              print("Player:" ,player_option)
              print("Computer:",cpu_option) 
              print("YOU WIN! ; Computer LOOSE")
-             Player_win += 1  
+             
             if cpu_option == "P":
              print("Player:" ,player_option)
              print("Computer:",cpu_option)
              print("YOU LOOSE ; Computer WINS!")
-             CPU_win += 1  
-
+             
         elif player_option == "p":
             if cpu_option == "S":
              print("Player:" ,player_option)
              print("Computer:",cpu_option) 
              print("YOU LOOSE ; Computer WINS!")
-             CPU_win += 1    
+                 
             if cpu_option == "R":
              print("Player:" ,player_option)
              print("Computer:",cpu_option)
              print("YOU LOOSE ; Computer WINS!")
-             CPU_win += 1  
+               
                
         elif player_option == "S":
             if cpu_option == "P":
              print("Player:" ,player_option)
              print("Computer:",cpu_option)
              print("YOU WIN! ; Computer LOOSE")
-             Player_win += 1  
+             
             if cpu_option == "R":
              print("Player:" ,player_option)
              print("Computer:",cpu_option)
              print("You WIN! ; Computer LOOSE")
-             Player_win += 1
+             
     Continue = input("keep playing? YES or NO: ").upper()
     if Continue == "YES":
         pass
