@@ -1,7 +1,7 @@
 from ast import Continue
 import random
 from tkinter.messagebox import YES
-import math
+
 
 print("*****WELCOME TO RPS GAME*****\n RPS means ROCK, PAPER, SCISSORS \n Carefully, read the RULES of the game before you begin!")
 print("This game is between you and the computer /CPU.")
